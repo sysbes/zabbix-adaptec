@@ -3,6 +3,7 @@ Monitoring Adapcec controller in Windows (Hyper-V Core) in Zabbix
 
 Template include All info about controller:
 Status, Logical Device 0 - satus, Physical Device from 0 to 5 state and S.M.A.R.T. warnings, S/N of devices.
+The template set triggers.
 
 Dowload https://github.com/sysbes/zabbix-adaptec/archive/master.zip
 
