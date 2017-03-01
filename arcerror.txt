@@ -1,0 +1,239 @@
+15AC | Sun 11Sep2016 (tz=-420)
+15AC | 23:00:09.498      JNI: ArcAdapter.cpp: Line #: 12334
+                   StorLib::getSystemConfig()
+                       ArcSystem::buildChildren(Ret & retOUT)
+                           ArcAdapter::buildChildren(Ret &retOUT)
+                               ArcAdapter::smpPassThrough()
+                                   *** FSA API Error: FsaSendSMPCommand() fsaStatus=661 ***
+13FC | Sun 11Sep2016 (tz=-420)
+13FC | 23:01:24.678      JNI: ArcAdapter.cpp: Line #: 12334
+                   StorLib::getSystemConfig()
+                       ArcSystem::buildChildren(Ret & retOUT)
+                           ArcAdapter::buildChildren(Ret &retOUT)
+                               ArcAdapter::smpPassThrough()
+                                   *** FSA API Error: FsaSendSMPCommand() fsaStatus=661 ***
+14BC | Sun 11Sep2016 (tz=-420)
+14BC | 23:01:31.819      JNI: ArcAdapter.cpp: Line #: 12334
+                   StorLib::getSystemConfig()
+                       ArcSystem::buildChildren(Ret & retOUT)
+                           ArcAdapter::buildChildren(Ret &retOUT)
+                               ArcAdapter::smpPassThrough()
+                                   *** FSA API Error: FsaSendSMPCommand() fsaStatus=661 ***
+0D94 | Sun 11Sep2016 (tz=-420)
+0D94 | 23:02:33.663      JNI: ArcAdapter.cpp: Line #: 12334
+                   StorLib::getSystemConfig()
+                       ArcSystem::buildChildren(Ret & retOUT)
+                           ArcAdapter::buildChildren(Ret &retOUT)
+                               ArcAdapter::smpPassThrough()
+                                   *** FSA API Error: FsaSendSMPCommand() fsaStatus=661 ***
+0534 | Sun 11Sep2016 (tz=-420)
+0534 | 23:02:43.116      JNI: ArcAdapter.cpp: Line #: 12334
+                   StorLib::getSystemConfig()
+                       ArcSystem::buildChildren(Ret & retOUT)
+                           ArcAdapter::buildChildren(Ret &retOUT)
+                               ArcAdapter::smpPassThrough()
+                                   *** FSA API Error: FsaSendSMPCommand() fsaStatus=661 ***
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 0
+                                           CDB: 4d 00 6f 00 00 00 00 02 00 00
+                                           Read Data: af 00 00 0c 00 00 03 08 00 00 1d 44 31 00 00 00
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 0
+                                           CDB: 4d 00 4d 00 00 00 00 02 00 00
+                                           Read Data: 0d 00 00 0c 00 00 03 02 00 1d 00 01 03 02 00 44
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 0
+                                           CDB: b7 0c 00 00 00 00 00 00 00 08 00 00
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 0
+                                           CDB: 4d 00 43 00 00 00 00 02 00 00
+                                           Read Data: 03 00 00 3c 00 00 02 04 06 6a 7d bd 00 01 02 04
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 0
+                                           CDB: 4d 00 42 00 00 00 00 02 00 00
+                                           Read Data: 02 00 00 34 00 01 02 04 00 00 00 00 00 02 02 04
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 1
+                                           CDB: 4d 00 6f 00 00 00 00 02 00 00
+                                           Read Data: af 00 00 0c 00 00 03 08 00 00 1d 44 2f 00 00 00
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 1
+                                           CDB: 4d 00 4d 00 00 00 00 02 00 00
+                                           Read Data: 0d 00 00 0c 00 00 03 02 00 1d 00 01 03 02 00 44
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 1
+                                           CDB: b7 0c 00 00 00 00 00 00 00 08 00 00
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 1
+                                           CDB: 4d 00 43 00 00 00 00 02 00 00
+                                           Read Data: 03 00 00 3c 00 00 02 04 05 31 02 44 00 01 02 04
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 1
+                                           CDB: 4d 00 42 00 00 00 00 02 00 00
+                                           Read Data: 02 00 00 34 00 01 02 04 00 00 00 00 00 02 02 04
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 5
+                                           CDB: 4d 00 6f 00 00 00 00 02 00 00
+                                           Read Data: af 00 00 0c 00 00 03 08 00 00 1f 44 33 00 00 00
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 5
+                                           CDB: 4d 00 4d 00 00 00 00 02 00 00
+                                           Read Data: 0d 00 00 0c 00 00 03 02 00 1f 00 01 03 02 00 44
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 5
+                                           CDB: b7 0c 00 00 00 00 00 00 00 08 00 00
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 5
+                                           CDB: 4d 00 43 00 00 00 00 02 00 00
+                                           Read Data: 03 00 00 3c 00 00 02 04 05 c9 b2 2c 00 01 02 04
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 5
+                                           CDB: 4d 00 42 00 00 00 00 02 00 00
+                                           Read Data: 02 00 00 34 00 01 02 04 00 00 00 00 00 02 02 04
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 4
+                                           CDB: 4d 00 6f 00 00 00 00 02 00 00
+                                           Read Data: af 00 00 0c 00 00 03 08 00 00 1f 44 35 00 00 00
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 4
+                                           CDB: 4d 00 4d 00 00 00 00 02 00 00
+                                           Read Data: 0d 00 00 0c 00 00 03 02 00 1f 00 01 03 02 00 44
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 4
+                                           CDB: b7 0c 00 00 00 00 00 00 00 08 00 00
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 4
+                                           CDB: 4d 00 43 00 00 00 00 02 00 00
+                                           Read Data: 03 00 00 3c 00 00 02 04 06 6d 53 02 00 01 02 04
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 4
+                                           CDB: 4d 00 42 00 00 00 00 02 00 00
+                                           Read Data: 02 00 00 34 00 01 02 04 00 00 00 00 00 02 02 04
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 7
+                                           CDB: 4d 00 6f 00 00 00 00 02 00 00
+                                           Read Data: af 00 00 0c 00 00 03 08 00 00 20 44 3a 00 00 00
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 7
+                                           CDB: 4d 00 4d 00 00 00 00 02 00 00
+                                           Read Data: 0d 00 00 0c 00 00 03 02 00 20 00 01 03 02 00 44
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 7
+                                           CDB: b7 0c 00 00 00 00 00 00 00 08 00 00
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 7
+                                           CDB: 4d 00 43 00 00 00 00 02 00 00
+                                           Read Data: 03 00 00 3c 00 00 02 04 05 e7 3f d1 00 01 02 04
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 7
+                                           CDB: 4d 00 42 00 00 00 00 02 00 00
+                                           Read Data: 02 00 00 34 00 01 02 04 00 00 00 00 00 02 02 04
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 6
+                                           CDB: 4d 00 6f 00 00 00 00 02 00 00
+                                           Read Data: af 00 00 0c 00 00 03 08 00 00 1e 44 35 00 00 00
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 6
+                                           CDB: 4d 00 4d 00 00 00 00 02 00 00
+                                           Read Data: 0d 00 00 0c 00 00 03 02 00 1e 00 01 03 02 00 44
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 6
+                                           CDB: b7 0c 00 00 00 00 00 00 00 08 00 00
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 6
+                                           CDB: 4d 00 43 00 00 00 00 02 00 00
+                                           Read Data: 03 00 00 3c 00 00 02 04 06 66 2b 7b 00 01 02 04
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000
+                                           Scsi Status : 0, srb status : 1, senseKey : 0
+                                           Adapter: 0,  Bus: 0,  ID: 6
+                                           CDB: 4d 00 42 00 00 00 00 02 00 00
+                                           Read Data: 02 00 00 34 00 01 02 04 00 00 00 00 00 02 02 04
+                                           Sense Data Size = 512
+                                           Sense Data: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+                                           Request Sense: ErrorCode=0x00, SenseKey=0x00, ASC=0x00, ASCQ=0x00, fruCode=0x00, SenseKeySpecific=0x000000

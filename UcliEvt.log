@@ -1,0 +1,15 @@
+13
+un Sep 11 22:58:37 2016  arcconf.exe 
+Sun Sep 11 22:59:14 2016  arcconf.exe GETSTATUS 
+Sun Sep 11 22:59:54 2016  arcconf.exe GETVERSIONS 
+Sun Sep 11 23:00:09 2016  arcconf.exe GETVERSION 
+Sun Sep 11 23:00:09 2016  Status: success, ReturnCode: 0x0
+Sun Sep 11 23:00:41 2016  arcconf.exe GETSMARTSTATS 
+Sun Sep 11 23:01:24 2016  arcconf.exe GETSTATUS Controller #1 
+Sun Sep 11 23:01:24 2016  Status: invalid arguments, ReturnCode: 0x3
+Sun Sep 11 23:01:31 2016  arcconf.exe GETSTATUS Controller#1 
+Sun Sep 11 23:01:31 2016  Status: invalid arguments, ReturnCode: 0x3
+Sun Sep 11 23:02:33 2016  arcconf.exe GETSTATUS 1 
+Sun Sep 11 23:02:33 2016  Status: success, ReturnCode: 0x0
+Sun Sep 11 23:02:43 2016  arcconf.exe GETSMARTSTATS 1 
+Sun Sep 11 23:02:48 2016  Status: success, ReturnCode: 0x0
